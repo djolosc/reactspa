@@ -1,4 +1,4 @@
-# React App
+# React App 🥳
 
 How to use the app:
 
