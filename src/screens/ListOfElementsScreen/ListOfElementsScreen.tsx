@@ -8,7 +8,7 @@ import { useGetItems } from "../../queries/hooks";
 import { Item, ScreenTemplate } from "../../components";
 import { useHandleScrollAndThrottle, useNavigation } from "../../hooks";
 
-import "./ListOfElements.scss";
+import "./ListOfElementsScreen.scss";
 
 const ListOfElementsScreen = () => {
   const { navigateBack } = useNavigation();
