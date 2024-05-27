@@ -1,5 +1,5 @@
-import DashboardScreen from "./Dashboard/Dashboard";
-import ListOfElementsScreen from "./ListOfElements/ListOfElements";
-import ErrorScreen from "./Error/ErrorScreen";
+import DashboardScreen from "./DashboardScreen/DashboardScreen";
+import ListOfElementsScreen from "./ListOfElementsScreen/ListOfElementsScreen";
+import ErrorScreen from "./ErrorScreen/ErrorScreen";
 
 export { DashboardScreen, ListOfElementsScreen, ErrorScreen };
