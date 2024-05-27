@@ -4,7 +4,7 @@ import {
   useSetCustomItems,
   useToggleFavorite,
 } from "../../context";
-import { useGetItems } from "../../queries/hooks";
+import { useGetItems } from "../../queries";
 import { Item, ScreenTemplate } from "../../components";
 import { useHandleScrollAndThrottle, useNavigation } from "../../hooks";
 
