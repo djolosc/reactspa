@@ -23,7 +23,11 @@ const Item: FC<ItemProps> = ({ id, title, isFavorite, onClick, image }) => {
         </div>
       </div>
       <button onClick={onClick}>
-        {isFavorite ? <FavoriteStarFull /> : <FavoriteStarEmpty />}
+        {isFavorite ? (
+          <FavoriteStarFull data-testid="starFull" />
+        ) : (
+          <FavoriteStarEmpty data-testid="starEmpty" />
+        )}
       </button>
     </div>
   );

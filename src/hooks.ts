@@ -16,7 +16,7 @@ const useHandleScrollAndThrottle = (callBackFunction: () => void) => {
       if (scrollTop + clientHeight >= scrollHeight - 240) {
         callBackFunction();
       }
-    }, 400);
+    }, 300);
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
