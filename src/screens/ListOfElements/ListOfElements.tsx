@@ -35,13 +35,7 @@ const ListOfElementsScreen = () => {
       });
       setCustomItems((previousItems) => [...previousItems, ...items]);
     }
-  }, [
-    data?.pages.length,
-    setCustomItems,
-    dataPagesLength,
-    data?.pages,
-    // customItemsLength,
-  ]);
+  }, [data?.pages.length, setCustomItems, dataPagesLength, data?.pages]);
 
   if (error) {
     return <p>{error.message}</p>;
