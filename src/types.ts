@@ -24,3 +24,13 @@ export const ROUTES = {
   DASHBOARD: "/",
   LIST_OF_ELEMENTS: "/list",
 };
+
+type MockFunction<T extends unknown[], R> = (...args: T) => R;
+
+export type Mocks = {
+  mockNavigateBack: MockFunction<[], void>;
+  mockItems: CustomItem[];
+  mockPages: Item[][];
+  mockError: { message: string } | null;
+  mockHasNextPage: boolean;
+};
